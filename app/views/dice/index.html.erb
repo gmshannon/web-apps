@@ -1,0 +1,26 @@
+<% die1 = rand(1..6)%>
+<%die2 = rand(1..6)%>
+<%die3 = rand(1..6)%>
+<%die4 = rand(1..6)%>
+<%die5 = rand(1..6)%>
+<%die6 = rand(1..6)%>
+<%total = die1 + die2%>
+
+<h1>Dice: </h1>
+<h2><%=die1%></h2>
+<h2><%=die2%></h2>
+<h1>Total: </h1>
+<h2><%=total%>
+
+<p>
+  <img src="/images/dice/<%= die1 %>.svg" alt="">
+  <img src="/images/dice/<%= die2 %>.svg" alt="">
+  <img src="/images/dice/<%= die3 %>.svg" alt="">
+  <img src="/images/dice/<%= die4 %>.svg" alt="">
+  <img src="/images/dice/<%= die5 %>.svg" alt="">
+  <img src="/images/dice/<%= die6 %>.svg" alt="">
+</p>
+
+<p>
+  <a href="" style="padding: 10px 20px; background-color:rgb(113, 27, 188); color: white; text-decoration: none; border-radius: 5px;">Roll Again!</a>
+</p>
